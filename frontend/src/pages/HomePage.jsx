@@ -37,7 +37,7 @@ export default function HomePage() {
         <div style={{ animation:'fadein .6s ease forwards' }}>
           <div style={{ display:'inline-flex', alignItems:'center', gap:8, fontFamily:'JetBrains Mono,monospace', fontSize:11, letterSpacing:2, color:'#ff7a1f', border:'1px solid rgba(255,122,31,0.25)', background:'rgba(255,122,31,0.07)', borderRadius:20, padding:'5px 14px', marginBottom:28 }}>
             <span style={{ width:6, height:6, borderRadius:'50%', background:'#ff7a1f', boxShadow:'0 0 8px #ff7a1f', display:'inline-block', animation:'blink 2s ease-in-out infinite' }} />
-            AI-Powered Security Intelligence
+            AI-Powered Security Tool
           </div>
 
           <h1 style={{ fontSize:'clamp(36px,5vw,58px)', fontWeight:800, lineHeight:1.06, letterSpacing:-2, marginBottom:22 }}>
@@ -47,10 +47,6 @@ export default function HomePage() {
             </span><br />
             <span style={{ color:'rgba(255,245,240,0.5)', fontWeight:300 }}>before hackers do.</span>
           </h1>
-
-          <p style={{ fontSize:16, lineHeight:1.75, color:'rgba(255,245,240,0.6)', maxWidth:440, marginBottom:36 }}>
-            Drop any URL. Spectra runs 10+ passive security checks — SSL, DNS, malware, cookies, tech stack — then Claude AI writes a plain-English threat report with a tailored fix plan.
-          </p>
 
           <ScannerInput />
         </div>
@@ -133,5 +129,6 @@ export default function HomePage() {
         </div>
       </section>
     </div>
+    
   )
 }

@@ -21,9 +21,6 @@ export default function Navbar() {
       </div>
 
       <div style={{ display:'flex', alignItems:'center', gap:12 }}>
-        <span style={{ fontFamily:'JetBrains Mono,monospace', fontSize:10, letterSpacing:1, padding:'4px 10px', borderRadius:20, background:'rgba(255,59,31,0.08)', border:'1px solid rgba(255,59,31,0.25)', color:'#ff3b1f' }}>
-          BETA · PHASE 1
-        </span>
       </div>
     </nav>
   )
